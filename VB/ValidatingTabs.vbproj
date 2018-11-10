@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
@@ -63,23 +63,25 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v10.1">
-      <Name>DevExpress.Data.v10.1</Name>
+    <Reference Include="DevExpress.Printing.v13.1.Core">
+      <Name>DevExpress.Printing.v13.1.Core</Name>
       <AssemblyFolderKey>hklm\devexpress debug</AssemblyFolderKey>
       <Private>True</Private>
-      <HintPath>c:\Projects\Test_Examples\TestFolder\Dlls\10.1.6\DevExpress.Data.v10.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Utils.v10.1">
-      <Name>DevExpress.Utils.v10.1</Name>
+    <Reference Include="DevExpress.Data.v13.1">
+      <Name>DevExpress.Data.v13.1</Name>
       <AssemblyFolderKey>hklm\devexpress debug</AssemblyFolderKey>
       <Private>True</Private>
-      <HintPath>c:\Projects\Test_Examples\TestFolder\Dlls\10.1.6\DevExpress.Utils.v10.1.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v10.1">
-      <Name>DevExpress.XtraEditors.v10.1</Name>
+    <Reference Include="DevExpress.Utils.v13.1">
+      <Name>DevExpress.Utils.v13.1</Name>
       <AssemblyFolderKey>hklm\devexpress debug</AssemblyFolderKey>
       <Private>True</Private>
-      <HintPath>c:\Projects\Test_Examples\TestFolder\Dlls\10.1.6\DevExpress.XtraEditors.v10.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v13.1">
+      <Name>DevExpress.XtraEditors.v13.1</Name>
+      <AssemblyFolderKey>hklm\devexpress debug</AssemblyFolderKey>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
